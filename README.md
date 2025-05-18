@@ -18,7 +18,7 @@ terraform init
 ## 2. Apply the configuration
 terraform apply
 
-📌 Notes
+## 📌 Notes:
 Make sure Vault is reachable from your Terraform runner.
 Ensure role_id and secret_id are valid and not expired.
 If using a remote Vault server, consider securing it via HTTPS and enabling authentication mechanisms properly.
